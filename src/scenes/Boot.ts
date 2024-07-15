@@ -11,7 +11,7 @@ export class Boot extends Scene {
 
     this.load.image('background', 'assets/bg.png');
     this.load.image('tiles', 'assets/Paint Tiles Demo.png');
-    this.load.tilemapTiledJSON('level1', 'tiled.json');
+    this.load.tilemapTiledJSON('tiled-map', 'tiled.json');
   }
 
   create() {
