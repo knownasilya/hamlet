@@ -43,6 +43,7 @@ export class Game extends Scene {
       if (layer) {
         layer.scale = 0.6;
         layer.setCollisionByProperty({ collides: true });
+        layer.setDepth(1);
 
         // Debug layer, doesn't work?
         // const debugGraphics = this.add.graphics().setAlpha(0.75);

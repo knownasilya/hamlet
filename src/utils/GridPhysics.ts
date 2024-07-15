@@ -105,8 +105,8 @@ export class GridPhysics {
 
   private shouldContinueMoving(): boolean {
     return (
-      this.movementDirection == this.lastMovementIntent &&
-      !this.isBlockingDirection(this.lastMovementIntent)
+      // this.movementDirection == this.lastMovementIntent &&
+      !this.isBlockingDirection(this.movementDirection)
     );
   }
 
